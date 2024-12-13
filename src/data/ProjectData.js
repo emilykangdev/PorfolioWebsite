@@ -9,6 +9,7 @@ import SnowyVillageImage from '../assets/SnowyVillage.png';
  * @property {string} description
  * @property {string} github
  * @property {string} link
+ * @property {string[]} tech
  */
 
 export const projects = [
@@ -22,6 +23,7 @@ export const projects = [
       View the full post here: https://devpost.com/software/mediadash. The repo also has a readme.`,
     github: "https://github.com/Emily-Kang77/Brainrot-MediaDash",
     link: "https://brainrot-media-dash.vercel.app/",
+    tech: ['Python', 'TypeScript', 'NextJS']
   },
 
   {
@@ -32,6 +34,7 @@ export const projects = [
         and get user feedback soon, and I'm collaborating with a designer and PM.`,
     github: "https://github.com/SumanthBellam/Smart-Share.io",
     link: "",
+    tech: ['JavaScript', 'React']
   },
 
   {
@@ -39,7 +42,8 @@ export const projects = [
     image: SnowyVillageImage,
     description: `This is a volunteer project and a demo for a local cafe. I made it with a team of 3 designers and 2 other developers 
       in a club called Web Impact. In the end it wasn't passed onto the client, but I learned a lot about front-end development! `,
-    github: "",
-    link: "Instead of scrolling through infinite feeds of social media apps, ",
+    github: "https://webimpactuw.github.io/snowy-village",
+    link: "https://webimpactuw.github.io/snowy-village",
+    tech: ['TypeScript', 'React']
   }
 ]
