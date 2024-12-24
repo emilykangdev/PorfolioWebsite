@@ -12,6 +12,7 @@ export default {
     colors: {
       primary: '#9BB0BB',
       secondary: '#7CAD9D',
+      'cardcolor': '#cbd5e1',
     }
   },
   plugins: [

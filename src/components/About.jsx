@@ -1,12 +1,12 @@
 import React from 'react'
-import Self from '../assets/Self.jpg'
-import LongerSelf from '../assets/LongerSelf.jpg'
+// import Self from '../assets/Self.jpg'
+// import LongerSelf from '../assets/LongerSelf.jpg'
 
 const About = () => {
   return (
     <div className="hero min-h-screen">
       <div className="hero-content flex flex-col lg:flex-row">
-        <img src={Self} alt="My photo" className="max-w-sm rounded-lg shadow-2xl shadow-gray-500"/>
+        {/* <img src={Self} alt="My photo" className="max-w-sm rounded-lg shadow-2xl shadow-gray-500"/> */}
         {/* <div className="lg:w-2/3 flex justify-center h-full">
           <div className="avatar justify-center">
             * <div className="w-[50%] rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">

@@ -1,6 +1,6 @@
-import MediaDashImage from '../assets/MediaDash.png';
-import SmartShareLogoImage from '../assets/SmartShareLogo.png';
-import SnowyVillageImage from '../assets/SnowyVillage.png';
+// import MediaDashImage from '../assets/MediaDash.png';
+// import SmartShareLogoImage from '../assets/SmartShareLogo.png';
+// import SnowyVillageImage from '../assets/SnowyVillage.png';
 
 /**
  * @interface Project
@@ -10,28 +10,31 @@ import SnowyVillageImage from '../assets/SnowyVillage.png';
  * @property {string} github
  * @property {string} link
  * @property {string[]} tech
+ * @property {string} devpost
  */
 
 export const projects = [
 
   {
     name: "MediaDash",
-    image: MediaDashImage,
+    // image: MediaDashImage,
     description: `Instead of scrolling through infinite feeds of social media apps, 
-      MediaDash lets you see all of your recommendations and subscriptions in one app.
-      This was created for the Brain Rot hackathon in 4 days.
-      View the full post here: https://devpost.com/software/mediadash. The repo also has a readme.`,
+      MediaDash lets you see all of your recommendations and subscriptions in one app. This was made during a hackathon.
+      See the full write-up in Github or Devpost. Made with `,
+    bold: "NextJS + TypeScript, Python + Flask, and Langchain.",
     github: "https://github.com/Emily-Kang77/Brainrot-MediaDash",
     link: "https://brainrot-media-dash.vercel.app/",
-    tech: ['Python', 'TypeScript', 'NextJS']
+    tech: ['Python', 'TypeScript', 'NextJS'],
+    devpost: "https://devpost.com/software/mediadash"
   },
 
   {
     name: "SmartShare",
-    image: SmartShareLogoImage,
+    // image: SmartShareLogoImage,
     description: `This is in development. It's a social media app for students
         on campus to exchange items and help each other out. I plan to finish up the MVP 
-        and get user feedback soon, and I'm collaborating with a designer and PM.`,
+        and get user feedback soon, and I'm collaborating with a designer and PM. Made with `,
+    bold: "JavaScript, React, FastAPI, DynamoDB",
     github: "https://github.com/SumanthBellam/Smart-Share.io",
     link: "",
     tech: ['JavaScript', 'React']
@@ -39,11 +42,12 @@ export const projects = [
 
   {
     name: "Website for Snowy Village Cafe",
-    image: SnowyVillageImage,
+    // image: SnowyVillageImage,
     description: `This is a volunteer project and a demo for a local cafe. I made it with a team of 3 designers and 2 other developers 
-      in a club called Web Impact. In the end it wasn't passed onto the client, but I learned a lot about front-end development! `,
+      in a club called Web Impact. In the end it wasn't passed onto the client, but I learned a lot about front-end development! Made with `,
+    bold: "React, TypeScript, Vite.",
     github: "https://webimpactuw.github.io/snowy-village",
     link: "https://webimpactuw.github.io/snowy-village",
     tech: ['TypeScript', 'React']
-  }
+  },
 ]
