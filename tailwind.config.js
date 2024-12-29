@@ -10,9 +10,9 @@ export default {
   theme: {
     extend: {},
     colors: {
-      primary: '#9BB0BB',
+      primary: '#f8875c',
       secondary: '#7CAD9D',
-      'cardcolor': '#cbd5e1',
+      'cardcolor': '#f8875c',
     }
   },
   plugins: [

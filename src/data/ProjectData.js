@@ -17,7 +17,7 @@ export const projects = [
 
   {
     name: "MediaDash",
-    // image: MediaDashImage,
+    image: "https://pfd-website-bucket.s3.us-west-2.amazonaws.com/assets/MediaDash.png",
     description: `Instead of scrolling through infinite feeds of social media apps, 
       MediaDash lets you see all of your recommendations and subscriptions in one app. This was made during a hackathon.
       See the full write-up in Github or Devpost. Made with `,
@@ -30,11 +30,11 @@ export const projects = [
 
   {
     name: "SmartShare",
-    // image: SmartShareLogoImage,
+    image: "https://pfd-website-bucket.s3.us-west-2.amazonaws.com/assets/SmartShareLogo.png",
     description: `This is in development. It's a social media app for students
         on campus to exchange items and help each other out. I plan to finish up the MVP 
         and get user feedback soon, and I'm collaborating with a designer and PM. Made with `,
-    bold: "JavaScript, React, FastAPI, DynamoDB",
+    bold: "TypeScript, React, Flask, SQL",
     github: "https://github.com/SumanthBellam/Smart-Share.io",
     link: "",
     tech: ['JavaScript', 'React']
@@ -42,7 +42,7 @@ export const projects = [
 
   {
     name: "Website for Snowy Village Cafe",
-    // image: SnowyVillageImage,
+    image: "https://pfd-website-bucket.s3.us-west-2.amazonaws.com/assets/SnowyVillage.png",
     description: `This is a volunteer project and a demo for a local cafe. I made it with a team of 3 designers and 2 other developers 
       in a club called Web Impact. In the end it wasn't passed onto the client, but I learned a lot about front-end development! Made with `,
     bold: "React, TypeScript, Vite.",

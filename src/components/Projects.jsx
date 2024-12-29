@@ -9,12 +9,12 @@ const Projects = () => {
   return (
     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4">
       {projects.map((project, index) => (
-        <div key={index} className="card bg-[#334155] m-3">
-          <figure>
-            {/* <img src={project.image} alt={project.name} /> */}
-          </figure>
+        <div key={index} className="card bg-[#334155] m-3 p-0">
+          {/* <figure>
+            <img src={project.image} alt={project.name} />
+          </figure> */}
           <div className="card-body">
-            <h1 className="card-title">{project.name}</h1>
+            <h2 className="card-title text-3xl justify-center">{project.name}</h2>
 
             <p>{project.description}
               <b>{project.bold}</b>
