@@ -23,7 +23,7 @@ const About = () => {
             <br></br>
             <br></br>
 
-            Feel free to reach out! 
+            Feel free to reach out or look through my Github! 
 
             <ContactInfo/>
             

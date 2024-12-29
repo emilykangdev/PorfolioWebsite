@@ -9,7 +9,8 @@ const Projects = () => {
   return (
 
 
-
+    <>
+    <h1>Selected Projects</h1>
     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-5 grid-rows-auto">
 
       {projects.map((project, index) => (
@@ -76,6 +77,7 @@ const Projects = () => {
         </div>
       ))}
     </div>
+    </>
   )
 }
 
