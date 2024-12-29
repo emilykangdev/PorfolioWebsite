@@ -5,7 +5,7 @@ const ContactInfo = () => {
     return (
         <div className="icon-group flex mt-5 justify-center mx-auto">
 
-                    <a href={"https://github.com/Emily-Kang77/Emily-Kang77.github.io"} target="_blank" rel="noopener noreferrer" className="mr-5">
+                    <a href={"https://github.com/Emily-Kang77"} target="_blank" rel="noopener noreferrer" className="mr-5">
                         <FaGithub size={45} color="white"/>
                     </a>
 
