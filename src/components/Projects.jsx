@@ -7,18 +7,38 @@ import { SiDevpost } from "react-icons/si";
 const Projects = () => {
   {/* <div className="flex flex-wrap justify-center gap-4"> */}
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4">
+
+
+
+    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-5 grid-rows-auto">
+
       {projects.map((project, index) => (
-        <div key={index} className="card bg-[#334155] m-3 p-0">
-          {/* <figure>
+        <div key={index} className="card card-compact bg-[#334155] m-3 p-0">
+          <figure>
             <img src={project.image} alt={project.name} />
-          </figure> */}
+          </figure>
+
           <div className="card-body">
             <h2 className="card-title text-3xl justify-center">{project.name}</h2>
 
-            <p>{project.description}
+            <p>{project.description}</p>
+
+          <div className="flex mt-3">
+
+          {
+              project.tech.map((tech, techIndex) => (
+                <div key={techIndex}>
+                  <button className="btn bg-emerald mr-2">
+                    {tech}
+                  </button>
+                </div>
+              ))
+            }
+          </div>
+
+            {/* <p className="text-[#4ade80]">
               <b>{project.bold}</b>
-            </p>
+            </p> */}
             <div className="card-actions justify-end">
               <div className="flex justify-between w-full">
                   <div className="flex flex-wrap">
