@@ -13,7 +13,10 @@ const Projects = () => {
     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-5 grid-rows-auto">
 
       {projects.map((project, index) => (
-        <div key={index} className="card card-compact bg-[#334155] m-3 p-0">
+        <div 
+          key={index}
+          className="card card-compact bg-[#334155] m-3 p-0"
+          style={{height: project.height}}>
           <figure>
             <img src={project.image} alt={project.name} />
           </figure>

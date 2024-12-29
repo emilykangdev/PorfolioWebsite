@@ -24,7 +24,8 @@ export const projects = [
     github: "https://github.com/Emily-Kang77/Brainrot-MediaDash",
     link: "https://brainrot-media-dash.vercel.app/",
     tech: ['NextJS', 'TypeScript', 'Python', 'Flask'],
-    devpost: "https://devpost.com/software/mediadash"
+    devpost: "https://devpost.com/software/mediadash",
+    height: "600px",
   },
 
   {
@@ -36,7 +37,8 @@ export const projects = [
     bold: "TypeScript, React, SQL",
     github: "https://github.com/SumanthBellam/Smart-Share.io",
     link: "",
-    tech: ['TypeScript', 'React', 'SQL']
+    tech: ['TypeScript', 'React', 'SQL'],
+    height: "500px",
   },
 
   {
@@ -47,6 +49,7 @@ export const projects = [
     bold: "React, TypeScript, Vite.",
     github: "https://webimpactuw.github.io/snowy-village",
     link: "https://webimpactuw.github.io/snowy-village",
-    tech: ['TypeScript', 'React']
+    tech: ['TypeScript', 'React'],
+    height: "550px",
   },
 ]

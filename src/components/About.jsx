@@ -6,14 +6,14 @@ import ContactInfo from './ContactInfo';
 
 const About = () => {
   return (
-    <div className="hero min-h-screen">
+    <div className="hero h-screen">
       <div className="hero-content flex flex-col lg:flex-row">
          
           <div className="w-[30%] rounded ring ring-offset-base-100 ring-offset-2">
             <img src='https://pfd-website-bucket.s3.us-west-2.amazonaws.com/assets/Self.jpg' alt="Your Photo" />
           </div>
         <div className="ml-[30px] lg:w-2/3 lg:pl-8">
-          <h1 className="font-bold">About Me</h1>
+          <h1 className="font-bold">About Emily</h1>
           <p>
             Hi, I'm Emily Kang, a Computer Science student at the Paul G. Allen School 
             of the University of Washington. I did two software engineer internships at Boeing, and 
