@@ -13,7 +13,7 @@ const About = () => {
             <img src='https://pfd-website-bucket.s3.us-west-2.amazonaws.com/assets/Self.jpg' alt="Your Photo" />
           </div>
         <div className="ml-[30px] lg:w-2/3 lg:pl-8">
-          <h1 className="font-bold">About Emily</h1>
+          <h1 className="font-bold">About Me</h1>
           <p>
             Hi, I'm Emily Kang, a Computer Science student at the Paul G. Allen School 
             of the University of Washington. I did two software engineer internships at Boeing, and 
