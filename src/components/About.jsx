@@ -17,8 +17,7 @@ const About = () => {
           <p>
             Hi, I'm Emily Kang, a Computer Science student at the Paul G. Allen School 
             of the University of Washington. I'm currently doing robotics research with the Robot Learning Lab, which uses deep learning. I did two software engineer internships at Boeing, and 
-            I mainly have skills in full-stack web development and backend. I'm passionate about learning new technologies and working with others. On my free time I'm working 
-            on SmartShare and MediaDash.
+            I mainly have skills in full-stack web development and backend.
 
             <br></br>
             <br></br>
