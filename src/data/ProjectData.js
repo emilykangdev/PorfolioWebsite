@@ -29,19 +29,6 @@ export const projects = [
   },
 
   {
-    name: "SmartShare",
-    image: "https://pfd-website-bucket.s3.us-west-2.amazonaws.com/assets/SmartShareLogo.png",
-    description: `This is in development. It's a social media app for students
-        on campus to exchange items and help each other out. I plan to finish up the MVP 
-        and get user feedback soon, and I'm collaborating with a designer and PM.`,
-    bold: "TypeScript, React, SQL",
-    github: "https://github.com/SumanthBellam/Smart-Share.io",
-    link: "",
-    tech: ['TypeScript', 'React', 'SQL'],
-    height: "500px",
-  },
-
-  {
     name: "Website for Snowy Village Cafe",
     image: "https://pfd-website-bucket.s3.us-west-2.amazonaws.com/assets/SnowyVillage.png",
     description: `This is a volunteer project and a demo for a local cafe. I made it with a team of 3 designers and 2 other developers 
