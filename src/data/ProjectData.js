@@ -16,6 +16,31 @@
 export const projects = [
 
   {
+    name: "Mobile App",
+    image: "", 
+    description: "", 
+    github: "", 
+    tech: [], 
+    height: "350px"
+  },
+
+  {
+    name: "MCP Nutrition App",
+    image: "",
+    description: "Coming up: a server that uses Model-Context Protocol to integrate with LLMs and provide personalized nutrition advice. Used React to build a frontend for food logging.",
+    github: "",
+    tech: ['Python', 'FastMCP', 'AI'],
+    height: "350px",
+  },
+
+  {
+    name: "RealChat",
+    description: `Real-time chat app made with Redis, Socket.IO, Express.js, PostgreSQL, React, TypeScript. Deployed to AWS EC2 with Docker.`,
+    github: "https://github.com/emilykangdev/real-chat",
+    tech: [],
+    height: "350px"
+  },
+  {
     name: "MediaDash",
     image: "https://pfd-website-bucket.s3.us-west-2.amazonaws.com/assets/MediaDash.png",
     description: `MediaDash lets you see all of your cross-platform recommendations and subscriptions in one app.

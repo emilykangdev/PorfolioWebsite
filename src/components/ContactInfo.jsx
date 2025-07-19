@@ -9,7 +9,7 @@ const ContactInfo = () => {
                                         <FaLinkedin size={45} color="white"/>
                                     </a>
 
-                    <a href={"https://github.com/Emily-Kang77"} target="_blank" rel="noopener noreferrer" className="mr-5">
+                    <a href={"https://github.com/emilykangdev"} target="_blank" rel="noopener noreferrer" className="mr-5">
                         <FaGithub size={45} color="white"/>
                     </a>
 

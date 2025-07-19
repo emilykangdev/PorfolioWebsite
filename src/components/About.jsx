@@ -15,16 +15,31 @@ const About = () => {
         <div className="ml-[30px] lg:w-2/3 lg:pl-8">
           <h1 className="font-bold">About Me</h1>
           <p>
-            Hi, I'm Emily Kang, a Computer Science student at the Paul G. Allen School 
-            of the University of Washington. I'm currently doing autonomous driving research with the Robot Learning Lab, which uses reinforcement learning. I did two software engineer internships at Boeing, and 
-            I mainly have skills in full-stack web development and backend.
+            Hi, I'm Emily Kang, a senior in CS at the Paul G. Allen School 
+            of the University of Washington. I graduate in December 2025. 
+
+            </p>
 
             <br></br>
+              
+            <p>
+            
+             I mainly have skills in full-stack and AI.
+              I love building learning new technologies and solving problems, so I've been exploring MCP and mobile dev recently.
+              I've worked in an AI team at a SaaS called UKG, and full-stack/backend roles at Boeing.
+
+              {/* Fun fact: I did autonomous driving research with the Robot Learning Lab for 1 quarter, and helped publish this paper: */}
+              
+            </p>
+
             <br></br>
 
-            Feel free to reach out or look through my Github! 
+            <p>
+              Feel free to reach out or look through my Github! 
+            </p>
 
             <ContactInfo/>
+            
             
             {/* Currently I'm taking classes on distributed systems
             and networks!  */}
@@ -32,7 +47,7 @@ const About = () => {
             {/* I'm currently learning about machine learning 
             to prepare for a class, and robotics research with a lab.
             And I'm working on a cool project called SmartShare!  */}
-          </p>
+        
           
       </div>
     </div>
